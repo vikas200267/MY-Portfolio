@@ -1,73 +1,137 @@
-# Welcome to your Lovable project
+# Vikas K P - Portfolio
 
-## Project info
+A modern, cybersecurity-focused portfolio website showcasing my projects, skills, and experience in cybersecurity, AI, and full-stack development.
 
-**URL**: https://lovable.dev/projects/927b90f2-994e-43c4-b8a2-b8a53a0235f6
+## 👨‍💻 About
 
-## How can I edit this code?
+This portfolio represents my journey as a B.E. Cyber Security graduate with a strong foundation in:
+- Network Security & Web Application Security
+- Vulnerability Assessment & Penetration Testing (VAPT)
+- Security Operations Center (SOC) Fundamentals
+- Cloud Security & Blockchain
+- Full-Stack Development with AI Integration
 
-There are several ways of editing your application.
+## 🚀 Tech Stack
 
-**Use Lovable**
+- **Frontend Framework:** React 18 with TypeScript
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **UI Components:** Radix UI & shadcn/ui
+- **Routing:** React Router
+- **State Management:** TanStack Query
+- **Form Handling:** React Hook Form with Zod validation
+- **Icons:** Lucide React
+- **Theme:** Dark mode with next-themes
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/927b90f2-994e-43c4-b8a2-b8a53a0235f6) and start prompting.
+## 📋 Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- ✨ Modern, responsive design with cybersecurity aesthetics
+- 🎨 Interactive UI with smooth animations
+- 📱 Mobile-first approach
+- 🌙 Dark mode optimized
+- 🔒 Security-focused project showcases
+- 📊 Skills visualization
+- 📄 Downloadable resume
+- 📧 Contact form integration
 
-**Use your preferred IDE**
+## 🛠️ Installation & Setup
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Getting Started
 
-Follow these steps:
+1. Clone the repository:
+```bash
+git clone https://github.com/vikas200267/MY-Portfolio.git
+cd MY-Portfolio
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2. Install dependencies:
+```bash
+npm install
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and navigate to `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📦 Build
 
-**Use GitHub Codespaces**
+To create a production build:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run build
+```
 
-## What technologies are used for this project?
+To preview the production build:
 
-This project is built with:
+```bash
+npm run preview
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📂 Project Structure
 
-## How can I deploy this project?
+```
+├── public/               # Static assets
+│   ├── Vikas-K-P-Resume.pdf
+│   └── favicon.ico
+├── src/
+│   ├── components/      # React components
+│   │   ├── ui/         # Reusable UI components
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Skills.tsx
+│   │   ├── Experience.tsx
+│   │   ├── Education.tsx
+│   │   ├── Hackathons.tsx
+│   │   └── Contact.tsx
+│   ├── pages/          # Page components
+│   ├── hooks/          # Custom React hooks
+│   ├── lib/            # Utility functions
+│   └── App.tsx         # Main application component
+├── index.html
+└── package.json
+```
 
-Simply open [Lovable](https://lovable.dev/projects/927b90f2-994e-43c4-b8a2-b8a53a0235f6) and click on Share -> Publish.
+## 🎯 Sections
 
-## Can I connect a custom domain to my Lovable project?
+- **Home:** Introduction and key statistics
+- **About:** Professional background and expertise
+- **Skills:** Technical skills and tools
+- **Projects:** Featured security and development projects
+- **Experience:** Professional work experience
+- **Education:** Academic background
+- **Hackathons:** Competitive achievements
+- **Contact:** Get in touch form
 
-Yes, you can!
+## 🔧 Scripts
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run build:dev` - Build in development mode
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 📱 Connect With Me
+
+- **GitHub:** [@vikas200267](https://github.com/vikas200267)
+- **LinkedIn:** [Vikas K P](https://www.linkedin.com/in/vikas-k-p-5298471a0)
+- **Email:** vikas.kp767@gmail.com
+
+## 📄 License
+
+This project is open source and available for educational purposes.
+
+## 🙏 Acknowledgments
+
+Built with modern web technologies and best practices in security and development.
+
+---
+
+**⚡ Building secure systems, one line of code at a time.**
